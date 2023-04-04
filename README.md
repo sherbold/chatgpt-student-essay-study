@@ -14,17 +14,17 @@
 
 ## Usage example for Ubuntu 22.04
 
-Execute the following commands in your terminal.
+Execute the following commands in your terminal to setup the environment.
 
 ```
-git clone https://sherbold/chatgpt-student-essay-study.git
+git clone https://github.com/sherbold/chatgpt-student-essay-study.git
 cd chatgpt-student-essay-study
 python3 -m venv venv
-source venv/bin/active
-pip install requirements.txt
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Start Jupyter Lab and open in browser
+You can then start Jupyter Lab and open it in a browser to view and execute all code.
 
 ```
 jupyter-lab
